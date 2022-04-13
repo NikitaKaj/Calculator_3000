@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>Calculator_3000</PackageId>
+    <Authors>Made by NicKai</Authors>
+    <Product>Calculator_3000</Product>
+    <AssemblyVersion>1.0</AssemblyVersion>
+  </PropertyGroup>
+
+</Project>
