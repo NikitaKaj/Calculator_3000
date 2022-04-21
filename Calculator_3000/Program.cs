@@ -1,6 +1,6 @@
 using System.Windows.Forms;
 
-namespace WinFormsApp1
+namespace Calculator_3000
 {
     internal static class Program
     {
@@ -14,12 +14,6 @@ namespace WinFormsApp1
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Calculator());
-
-
-            
-
-
-
         }
     }
 }

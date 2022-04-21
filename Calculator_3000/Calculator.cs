@@ -1,4 +1,4 @@
-namespace WinFormsApp1
+namespace Calculator_3000
 {
     public partial class Calculator : Form
     {
