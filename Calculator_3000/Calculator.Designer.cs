@@ -267,7 +267,7 @@
             // 
             // clear
             // 
-            this.clear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clear.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.clear.Location = new System.Drawing.Point(12, 93);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(65, 53);
@@ -292,23 +292,24 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // txtScreen
+            // First_txt_Screen
             // 
+            this.First_txt_Screen.BackColor = System.Drawing.SystemColors.Window;
             this.First_txt_Screen.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.First_txt_Screen.Location = new System.Drawing.Point(12, 12);
             this.First_txt_Screen.Multiline = true;
-            this.First_txt_Screen.Name = "txtScreen";
+            this.First_txt_Screen.Name = "First_txt_Screen";
             this.First_txt_Screen.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.First_txt_Screen.Size = new System.Drawing.Size(296, 75);
             this.First_txt_Screen.TabIndex = 21;
             // 
-            // label1
+            // Second_txt_Screen
             // 
             this.Second_txt_Screen.AutoSize = true;
             this.Second_txt_Screen.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Second_txt_Screen.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Second_txt_Screen.Location = new System.Drawing.Point(34, 36);
-            this.Second_txt_Screen.Name = "label1";
+            this.Second_txt_Screen.Name = "Second_txt_Screen";
             this.Second_txt_Screen.Size = new System.Drawing.Size(0, 21);
             this.Second_txt_Screen.TabIndex = 22;
             // 
